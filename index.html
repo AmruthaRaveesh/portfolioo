@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/881547355d.js" crossorigin="anonymous"></script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+        <nav>
+            <img src="./images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Projects</a></li>
+                <!-- <li><a href="#">Portfolio</a></li> -->
+                <li><a href="#contact">Contact</a></li>
+                <!-- <li><a href="./log.html" style="text-decoration: none; color: white;" id="login1"><input type="button" id="login" > Login</a></li> -->
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>  
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <!-- <a href="./registration.html" id="login1"><input type="button" id="login" > Login</a> -->
+        
+        
+        <div class="headertext">
+            <p >Full Stack Web Developer</p>
+            <h1>Hi, I'm <span>Amrutha.R</span> <br> from Banglore.</h1>
+        </div>
+    </div>
+</div>
+<!-- ----------------------------about------------------------------------------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="./images/about2.jpg" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="subtitle">About Me</h1>
+                <p><h1>I'm Amrutha</h1><h5>Java | Web Developer | SQL</h5>I'm a full stack developer. I graduated in the year 2023 in ECE branch from GSKSJTI, passionate about improving my coding skills and developing various websites. <br>I'm well versed in java, html, css, javascript, sql....etc.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('projects')">Projects</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li>JAVA</li>
+                        <li>SQL</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Java Script</li>
+                        <li>JDBC</li>
+                        <li>Hibernet</li>
+                        <li>Springs</li>
+                        <li>Servelets</li>
+                        <li>Data Structures and Algorithms</li>
+                        <li>C Language</li>
+                    </ul>
+                    <div class="tab-contents" id="projects">
+                        <ul>
+                            <li><span >LINE FOLLOWING ROBOT</span><br>A line following robot which follows a black line on the white surface using IR Sensors and detects any obstacle present in front of the robotic car using Ultrasonic Sensor.</li>
+                            <li><span >WIRELESS CHARGING OF AN ELECTRIV VEHICLE</span><br>In this project i've developed a charging pad which consists of a transmitting coil and we will install the receiver coil to en electric vehicle, whenever the IR Sensor detects an electric vehicle, transmitting coil transmits the electric current to the receiver coil. hence the battery will be charged.</li>
+                            <li><span >WORDS PER MINUTE CALCULATOR</span>This project checks the typing speed of an individual per minute and also rectifies the number of mistakes made in a minute and displays the number of words typed by a person within a minute.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span >BE (ECE):</span><br>Govt SKSJTI College, Begaluru <br>Percentage:80% <br>Year:2019-2023</li>
+                            <li><span >PU (PCMB):</span><br>Vidya Sanskaar PU College,Machohalli Begaluru-91<br>Percentage:91% <br>Year:2017-2019</li>
+                            <li><span >SSLC (ICSE)</span>:</span><br>VES Model Convent,Tavarekere Begaluru-91<br>Percentage:85% <br>Year:2016-2017</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- -----------------------------------------------------projects--------------------------------------------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="subtitle">My Projects</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-robot"></i>
+                <h2>Line Following Robot</h2>
+                <p>A line following robot which follows a black line on the white surface using IR Sensors and detects any obstacle present in front of the robotic car using Ultrasonic Sensor.</p>
+            <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-charging-station"></i>
+                <h2>Wireless Charging of Electriv Vehicle</h2>
+                <p>In this project i've developed a charging pad which consists of a transmitting coil and we will install the receiver coil to en electric vehicle, whenever the IR Sensor detects an electric vehicle, transmitting coil transmits the electric current to the receiver coil. hence the battery will be charged.</p>
+            <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-calculator"></i>
+                <h2>Words Per Minute Calculator</h2>
+                <p>This project checks the typing speed of an individual per minute and also rectifies the number of mistakes made in a minute and displays the number of words typed by a person within a minute.</p>
+            <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------------------------------contact----------------------------------------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="subtitle">Contact Me</h1>
+                <p><i class="fa-sharp fa-solid fa-paper-plane"></i> sk19ec002@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> 8296311139</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="" class="btn1 btn2" download>Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form action="">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" id="" placeholder="Your Message" rows="10"></textarea>
+                    <button type="submit" class="btn1 btn2">Submit</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Designed with <i class="fa-solid fa-heart"></i> by Amrutha</p>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+<script>
+
+    var sidemeu=document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right="0";
+    }
+    function closemenu(){
+        sidemeu.style.right="-200px";
+    }
+    
+</script>
+</body>
+</html>
